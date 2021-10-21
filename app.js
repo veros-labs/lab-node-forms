@@ -9,9 +9,10 @@ app.set('view engine', 'ejs');
 
 //routes
 app.use(require('./routes/index'));
-
 app.use(require('./routes/form'));
 app.use(require('./routes/contact'));
+app.use(require('./routes/counter'));
+
 
 app.listen(port, ()=>{
     console.log(`listening on port ${port}`);
