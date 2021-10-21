@@ -12,6 +12,7 @@ app.use(require('./routes/index'));
 app.use(require('./routes/form'));
 app.use(require('./routes/contact'));
 app.use(require('./routes/counter'));
+app.use(require('./routes/bank'));
 
 
 app.listen(port, ()=>{
